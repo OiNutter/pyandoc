@@ -2,6 +2,9 @@ import subprocess
 
 PANDOC_PATH = '/Users/kreitz/.cabal/bin//pandoc'
 
+def set_path(path):
+	global PANDOC_PATH
+	PANDOC_PATH = path
 
 class Document(object):
 	"""A formatted document."""
