@@ -1,6 +1,6 @@
 import subprocess
 
-PANDOC_PATH = '/Users/kreitz/.cabal/bin//pandoc'
+PANDOC_PATH = 'pandoc'
 
 def set_path(path):
 	global PANDOC_PATH
